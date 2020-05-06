@@ -11,6 +11,7 @@ export const membersMock: IMember[] = [
         id: "2",
         name: "Axel",
         email: "axel@mock.com",
-        teacherIds: ["1"]
+        teacherIds: ["1"],
+        isTeacher: false
     }
 ];
