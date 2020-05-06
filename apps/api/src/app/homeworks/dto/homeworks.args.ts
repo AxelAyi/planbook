@@ -10,8 +10,8 @@ export class GetHomeworksArgs extends PaginationArgs {
     studentId?: string;
     
     @Field(type => GraphQLISODateTime, { nullable: true })
-    minDate?: string;
+    minDate?: Date;
 
     @Field(type => GraphQLISODateTime, { nullable: true })
-    maxDate?: string;
+    maxDate?: Date;
 }
